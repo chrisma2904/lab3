@@ -37,3 +37,29 @@ We should avoid sorting the original array because sort() changes the original d
 ### 5. Is the filtered product list better stored in its own state, or calculated from existing state during rendering? Explain your choice.
 
 It is better to calculate the filtered product list during rendering because it is based on the existing search, category, and sort states. This avoids unnecessary state and keeps the data updated automatically when the filters change.
+
+## How to Run the Project
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Install dependencies:
+
+   npm install
+
+4. Start the development server:
+
+   npm run dev
+
+5. Open the localhost link in your browser.
+
+## Testing Checklist
+
+- [ ] Search products by keyword.
+- [ ] Filter products by category.
+- [ ] Sort products by price.
+- [ ] Debounce search input by 300ms.
+- [ ] Display matching product count.
+- [ ] Display empty-state message.
+- [ ] Clear all filters.
+- [ ] Update browser tab title.
+- [ ] Add products to cart.
